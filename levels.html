@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Levels</title>
+<style>
+body{
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+.container {
+max-width: 600px;
+margin: 100px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+color: #333;
+}
+.quiz-levels {
+display: flex;
+ justify-content: space-around;
+ margin-top: 20px;
+ }
+.quiz-level {
+border: 2px solid #333;
+border-radius: 5px;
+padding: 10px 20px;
+background-color: Black;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+.quiz-level:hover {
+background-color: #444444;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Decide your Quiz level ?</h2>
+<div class="quiz-levels">
+<a href="#easy" class="quiz-level">Easy</a>
+<a href="#moderate" class="quiz-level">Intermediate</a>
+<a href="#tough" class="quiz-level">Advanced</a>
+</div>
+</div>
+</body>
+</html>
